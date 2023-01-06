@@ -127,13 +127,13 @@
 // console.log("2"-1)
 // console.log(2-"1")
 
-function sum (number1, number2, ...numbers){
+function sum (...numbers){
     
-    console.log(numbers)
+  
     let result = 0;
     
-    for(let numb of numbers){
-        result += numb ;
+    for(let num of numbers){
+        result += num ;
     }
    return result;
 
