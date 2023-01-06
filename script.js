@@ -124,5 +124,19 @@
 
 
 
-console.log("2"-1)
-console.log(2-"1")
+// console.log("2"-1)
+// console.log(2-"1")
+
+function sum (number1, number2, ...numbers){
+    
+    console.log(numbers)
+    let result = 0;
+    
+    for(let numb of numbers){
+        result += numb ;
+    }
+   return result;
+
+}
+
+console.log(sum(3, 4, 5));
