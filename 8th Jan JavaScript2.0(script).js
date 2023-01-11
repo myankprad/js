@@ -59,3 +59,4 @@ String.prototype.truelength = function(){
 }
 
 let myname = "hitesh   "
+console.log(myname.truelength)

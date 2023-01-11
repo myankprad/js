@@ -127,16 +127,29 @@
 // console.log("2"-1)
 // console.log(2-"1")
 
-function sum (...numbers){
+// function sum (...numbers){
     
   
-    let result = 0;
+//     let result = 0;
     
-    for(let num of numbers){
-        result += num ;
-    }
-   return result;
+//     for(let num of numbers){
+//         result += num ;
+//     }
+//    return result;
 
+// }
+
+// console.log(sum(3, 4, 5));
+
+let groom = {
+  name: "Ram",
+  age: 27
 }
 
-console.log(sum(3, 4, 5));
+let wife = {
+    name: "Sita",
+    realName:"Princess Noor Jahan"
+}
+
+ let pair = {...data, ...wife}
+ console.log(pair)
