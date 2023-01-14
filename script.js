@@ -141,22 +141,39 @@
 
 // console.log(sum(3, 4, 5));
 
-let groom = {
-  name: "Ram",
-  age: 27
-}
+// let groom = {
+//   name: "Ram",
+//   age: 27
+// }
 
-let wife = {
-    name: "Sita",
-    realName:"Princess Noor Jahan"
-}
+// let wife = {
+//     name: "Sita",
+//     realName:"Princess Noor Jahan"
+// }
 
- let pair = {...data, ...wife}
- console.log(pair)
+//  let pair = {...data, ...wife}
+//  console.log(pair)
 
- String.prototype.truelength = function(){
+//  String.prototype.truelength = function(){
+//   console.log(`${this.name}`);
+//   console.log(`true length is: ${this.trim().length}`);
+// }
+
+// let myname = "hitesh   "
+// console.log(myname.truelength)
+
+
+// String.prototype.truep = function(){
+//   console.log(`True length is ${this.trim().length}`)
+// }
+
+
+// let x = "vdr";
+// console.log(x.truep)
+
+String.prototype.truelength = function(){
   console.log(`${this.name}`);
-  console.log(`true length is: ${this.trim().length}`);
+  console.log(`true length is: ${this.trim().length()}`);
 }
 
 let myname = "hitesh   "
