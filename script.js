@@ -171,10 +171,18 @@
 // let x = "vdr";
 // console.log(x.truep)
 
-String.prototype.truelength = function(){
-  console.log(`${this.name}`);
-  console.log(`true length is: ${this.trim().length()}`);
-}
+// String.prototype.truelength = function(){
+//   console.log(`${this.name}`);
+//   console.log(`true length is: ${this.trim().length()}`);
+// }
 
-let myname = "hitesh   "
-console.log(myname.truelength)
+// let myname = "hitesh   "
+// console.log(myname.truelength)
+
+
+greet()
+function greet() {
+console.log("hey")
+console.log(x)
+var x = 1
+} 
