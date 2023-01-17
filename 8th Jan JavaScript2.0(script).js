@@ -51,12 +51,12 @@ Object.setPrototypeOf(TeachingSupport, Teacher)
 
 // Goal: get truelength of string
 
-let yourname = "pooja"
+let yourname = "Wanda"
 
 String.prototype.truelength = function(){
     console.log(`${this.name}`);
     console.log(`true length is: ${this.trim().length}`);
 }
 
-let myname = "hitesh   "
+let myname = "Mark   "
 console.log(myname.truelength)

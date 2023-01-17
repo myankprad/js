@@ -180,9 +180,30 @@
 // console.log(myname.truelength)
 
 
-greet()
-function greet() {
-console.log("hey")
-console.log(x)
-var x = 1
-} 
+// greet()
+// function greet() {
+// console.log("hey")
+// console.log(x)
+// var x = 1
+// } 
+
+
+
+// let adam = {}
+// adam.a 
+// console.log(hasO)
+
+// var fun= function(x){
+// return x*x 
+
+// }
+// console.log(fun(10))
+
+
+
+let num = -588;
+num = num.toString().split("").reverse().join("")
+let n = parseInt(num)
+console.log(n)
+if(n)
+
