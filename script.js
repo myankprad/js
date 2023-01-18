@@ -205,5 +205,12 @@ let num = -588;
 num = num.toString().split("").reverse().join("")
 let n = parseInt(num)
 console.log(n)
-if(n)
 
+const obj1 = {
+    rocket: '🚀',
+    fuel: 2,
+    config: {
+        name: 'mars'
+    }
+}
+console.log(obj1.config.name)
