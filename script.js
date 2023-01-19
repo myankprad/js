@@ -201,16 +201,31 @@
 
 
 
-let num = -588;
-num = num.toString().split("").reverse().join("")
-let n = parseInt(num)
-console.log(n)
+// let num = -588;
+// num = num.toString().split("").reverse().join("")
+// let n = parseInt(num)
+// console.log(n)
 
-const obj1 = {
-    rocket: '🚀',
-    fuel: 2,
-    config: {
-        name: 'mars'
+// const obj1 = {
+//     rocket: '🚀',
+//     fuel: 2,
+//     config: {
+//         name: 'mars'
+//     }
+// }
+// console.log(obj1.config.name)
+
+
+
+
+
+var subs = document.getElementsByClassName("Z0LcW t2b5Cf")
+
+let count = 1
+setInterval(() => {
+    if(count < 100 )
+    {
+        count ++;
+        subs.innerTEXT = count
     }
-}
-console.log(obj1.config.name)
+}, 100);
