@@ -219,13 +219,33 @@
 
 
 
-var subs = document.getElementsByClassName("Z0LcW t2b5Cf")
+// var subs = document.getElementsByClassName("Z0LcW t2b5Cf")
 
-let count = 1
-setInterval(() => {
-    if(count < 100 )
-    {
-        count ++;
-        subs.innerTEXT = count
-    }
-}, 100);
+// let count = 1
+// setInterval(() => {
+//     if(count < 100 )
+//     {
+//         count ++;
+//         subs.innerTEXT = count
+//     }
+// }, 100);
+
+// var user = function (firstName, raseCount, win ){
+//     this.firstName= firstName;
+//     this.raseCount= raseCount;
+//     this.win= win;
+//     this.getraseCount= function(){
+//         console.log(`The name is ${this.firstName}`)
+//         console.log(`Race count is: ${this.raseCount}`)
+//     }
+// }
+
+// var dom= new user("Domnik toreto", 500, 499 )
+// var brain= new user("Brain", 500, 500)
+
+// user.prototype.race= function(){
+//     console.log(`Total no of race win by ${this.firstName}: ${this.win}`)
+// }
+
+// dom.getraseCount();
+// dom.race();
